@@ -1,0 +1,29 @@
+{
+  "name": "adventjs",
+  "version": "1.0.0",
+  "description": "adventJS exercises",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint --ext .js exercises/",
+    "eslint-fix": "npm run eslint -- --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnaRativa09/adventJS.git"
+  },
+  "keywords": [
+    "adventJS"
+  ],
+  "author": "@anarativa09",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnaRativa09/adventJS/issues"
+  },
+  "homepage": "https://github.com/AnaRativa09/adventJS#readme",
+  "devDependencies": {
+    "eslint": "^8.3.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3"
+  }
+}
