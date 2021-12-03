@@ -24,7 +24,7 @@ function listGifts2(letter) {
     objectGifts[gift]
       ? objectGifts[gift] += 1
       : objectGifts[gift] = 1;
-  })
+  });
 
   return objectGifts;
 }
